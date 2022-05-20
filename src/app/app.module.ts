@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 
 import { InspectorComponent } from './inspector/inspector.component';
 import { InspectorRowComponent } from './inspector/inspector-row.component';
+import { IVRTREEComponent } from './ivr-tree/ivr-tree.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     InspectorComponent,
-    InspectorRowComponent
-  ],
+    InspectorRowComponent,
+    IVRTREEComponent
+    ],
   imports: [
     BrowserModule,
     FormsModule,

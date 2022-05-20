@@ -48,7 +48,7 @@ export class AppComponent {
     ],
     paletteModelData: { prop: 'val' }
   };
-  
+
   public diagramDivClassName: string = 'myDiagramDiv';
   public paletteDivClassName = 'myPaletteDiv';
 
@@ -100,7 +100,7 @@ export class AppComponent {
         $(go.Panel, 'Auto',
           $(go.Shape, 'RoundedRectangle', { stroke: null },
             new go.Binding('fill', 'color', (c, panel) => {
-             
+
               return c;
             })
           ),
